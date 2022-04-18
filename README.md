@@ -1,6 +1,6 @@
 # Desafio: Rocketflix
 
-<div align="flex-end"><p>Desafio discover by <a href="https://www.rocketseat.com.br/">Rocketseat</div>
+<p align="end"> Desafio Discover <a href="https://rocketseat.com.br">Rocketseat</a></p>
 
 <div align="center"><img src="./assets/Kapture.gif"/></div>
 
