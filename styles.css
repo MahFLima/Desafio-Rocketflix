@@ -1,0 +1,106 @@
+:root {
+  --title: #fffcf9;
+  --subtitle: #b3b3b3;
+  --bg-button: #e9e6e3;
+  --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  color: var(--title);
+}
+
+
+
+body{
+  background: var(--background );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.logo{
+  width: 5.5rem;
+  height: 3.8rem;
+}
+
+main h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-button);
+  width: 11.25rem;
+  height: 2.9rem;
+  border: none;
+  color: black;
+  padding: 14px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.btn img{
+  width: 2.2rem;
+  height: 1.5rem;
+}
+
+main p{
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.film-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  width: 100%;
+}
+
+.film-img{
+  width: 10.6rem;
+  height: 15.25rem;
+  object-fit: cover;
+}
+
+.film-content h3{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.film-content p{
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media(min-width:768px){
+  .film-container{
+    flex-direction: row;
+    width: 600px;
+  }
+}
